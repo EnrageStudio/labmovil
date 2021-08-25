@@ -25,7 +25,7 @@ const Container_4 = () => {
                     <video controls>
                         <source src = {video} type = 'video/mp4'/>
                     </video>
-                    <p className = 'text-bold'>Diana Rivera, xxxxxxxxx</p>
+                    <p className = 'text-bold'>Diana Rivera, docente de la UTPL</p>
                 </div>
             </div>
         </div>

@@ -34,6 +34,17 @@
         }
     }
 }
+@include respond (laptop){
+    .header{
+        .header__title{
+            .header__title--cont{
+                p{
+                    font-size: 50pt;
+                }
+            }
+        }
+    }
+}
 @include respond(desktop){
     .header{
         .header__video{           
