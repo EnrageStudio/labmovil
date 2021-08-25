@@ -1,0 +1,111 @@
+.footer{
+    background-color: $black;
+    .footer__content{
+        max-width: 90%;
+        margin: auto;
+        padding-top: 2em;
+        color: white;
+        h2{
+            font-size: 20pt;
+        }
+        .footer__content--form{
+            input{
+                width: 100%;
+                margin: 0.25em 0 0.25em 0;
+            }
+            .footer__content--form--btn{
+                background: none;
+                border: solid 1px white;
+                color: white;
+                font-size: 1.1em; 
+                padding: 5px 0 5px 0;
+            }
+        }
+        .footer__content--social{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 1.5em;
+            padding-bottom: 3.5em;
+            h2{
+                width: 100%;
+                margin-bottom: 1em;
+            }
+            .footer__content--social-network--fb{
+                max-width: 33.33%;
+                margin: 0;
+                text-align: right;
+                img{
+                    max-width: 50%;
+                }
+            }
+            .footer__content--social-network--insta{
+                max-width: 33.33%;
+                margin: 0;
+                text-align: center;
+                img{
+                    max-width: 50%;
+                }
+            }
+            .footer__content--social-network--twitter{
+                max-width: 33.33%;
+                margin: 0;
+                text-align: left;
+                img{
+                    max-width: 50%;
+                }
+            }
+        }
+    }
+}
+@include respond(desktop){
+    .footer{
+        .footer__content{
+            max-width: 80%;
+            display: flex;
+            h2{
+                font-size: 50pt;
+            }
+            .footer__content--form{
+                order: 2;
+                input{
+                    width: 48%;
+                    font-size: 20pt;
+                    padding: 1%;
+                    &:first-of-type{
+                        margin-right: 2%;
+                    }
+                }
+                .footer__content--form--btn{
+                    font-size: 20pt;
+                }
+            }
+            .footer__content--social{
+                .footer__content--social-network--fb{
+                    width: 10%;
+                    text-align: left;
+                    cursor: pointer;
+                    img{
+                        max-width: 80%;
+                    }
+                }
+                .footer__content--social-network--insta{
+                    width: 10%;
+                    text-align: left;
+                    cursor: pointer;
+                    img{
+                        max-width: 80%;
+                    }
+                }
+                .footer__content--social-network--twitter{
+                    width: 10%;
+                    text-align: left;
+                    cursor: pointer;
+                    img{
+                        max-width: 80%;
+                    }
+                }
+            }
+            
+        }
+    }
+}
