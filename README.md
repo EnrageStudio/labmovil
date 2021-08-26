@@ -15,3 +15,4 @@ Instala los modulos necesarios para el proyecto.
 - V1.0 - Proyecto funcionando con el responsive movil y escritorio.
 - v1.0.1 - Proyecto corregido texto y versión para laptop.
 - v1.0.2 - Corregido tamaño de fuente para diversas pantallas, errores de texto.
+- v1.1.0 - Incluido botón blotante de whatsapp.
