@@ -7,7 +7,7 @@ const Container_5 = () => {
                 <h2>Un viaje a través de una narrativa multimedia expandida y tu proyecto personal</h2>
                 <div className = 'content__container_5--content--text'>
                     <h3>El viaje 2222 te ofrece:</h3>
-                    <p>un evento conferencia de bienvenida + 20 podcasts + 12 videos + 12 viñetas + un manual personalizado de trabajo Outliers School + 50 recursos recomendados + una comunidad propia en Clubhouse + gamificación de tu compromiso con el viaje + una maratón de cierre de 24 hs de proyectos de innovación docente + las semanas extras para los mejores 200 viajeros. </p>
+                    <p>un evento conferencia de bienvenida + 20 podcasts + 12 videos + 12 viñetas + un manual personalizado de trabajo Outliers School + 50 recursos recomendados + una comunidad propia en Clubhouse + gamificación de tu compromiso con el viaje + una maratón de cierre de 24 hs de proyectos de innovación docente + las semanas extras para los mejores 200 viajeros. </p>
                     <p><strong>Y lo más importante: la ideación ágil de tu proyecto personal de innovación docente.</strong></p>
                 </div>
                 <div className = 'content__container_5--content--img'>

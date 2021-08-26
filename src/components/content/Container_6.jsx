@@ -8,7 +8,7 @@ const Container_6 = () => {
                     <video controls>
                         <source src = {video} type = 'video/mp4'/>
                     </video>
-                    <p><strong>HUGO PARDO KUKLINSKI, director de outliers school</strong></p>
+                    <p><strong>HUGO PARDO KUKLINSKI, director de Outliers School</strong></p>
                 </div>
                 <div className = 'content__container_6--content--text'>
                     <h2>Una ruta de autoaprendizaje diseñada por un gran equipo internacional</h2>

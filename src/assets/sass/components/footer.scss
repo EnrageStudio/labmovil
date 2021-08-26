@@ -63,23 +63,28 @@
             max-width: 80%;
             display: flex;
             h2{
-                font-size: 50pt;
+                font-size: 40px;
             }
             .footer__content--form{
                 order: 2;
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
                 input{
                     width: 48%;
-                    font-size: 20pt;
+                    font-size: 20px;
                     padding: 1%;
                     &:first-of-type{
                         margin-right: 2%;
                     }
                 }
                 .footer__content--form--btn{
-                    font-size: 20pt;
+                    font-size: 20px;
                 }
             }
             .footer__content--social{
+                width: 50%;
+                margin-top: 0;
                 .footer__content--social-network--fb{
                     width: 10%;
                     text-align: left;

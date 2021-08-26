@@ -6,7 +6,6 @@ function Footer() {
     return (
       <div className = 'footer'>
         <div className = 'footer__content'>
-          
           <form className = 'footer__content--form'>
             <h2>Suscríbete a nuestra <strong>Newsletter</strong></h2>
             <input placeholder = 'Nombre'/>
