@@ -43,7 +43,7 @@ const Container_2 = () => {
                         <img src = {inversion} alt = 'icon-inversion' />
                     </center>
                     <p className = 'content__container_2--title'>Inversión</p>
-                    <p>$ 50</p>
+                    <p>$ 75</p>
                 </div>
                 <div className = 'content__container_2--about'>
                     <center>
