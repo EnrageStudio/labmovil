@@ -1,7 +1,4 @@
 import logo from '../../assets/images/2222_logo_blanco.png';
-import logo_utpl from '../../assets/images/UTPL-INSTITUCIONAL-color.jpg';
-import logo_outliers from '../../assets/images/logo_outliers_multi_transp.png';
-import logo_catedra from '../../assets/images/thumbnail_logop catedra de innovacion copy.png';
 
 const Container_7 = () => {
     return(
@@ -17,19 +14,6 @@ const Container_7 = () => {
                     <a href = 'https://forms.office.com/r/HtS9GhfQ22'>Aprende a desaprender</a>
                 </div>       
             </div>  
-            <hr/>
-            <div className = 'content__container_7--organizan'>
-                <h2>Organizan:</h2>
-                    <a>
-                        <img src = {logo_utpl} alt = 'logo_utpl'/>
-                    </a>
-                    <a>
-                        <img src = {logo_outliers} alt = 'logo_outliers'/>
-                    </a>
-                    <a>
-                        <img src = {logo_catedra} alt = 'logo_catedra'/>
-                    </a>
-                </div>
         </div>
     );
 }

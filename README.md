@@ -12,10 +12,11 @@ Instala los modulos necesarios para el proyecto.
 
 ## Versiones
 
-- V1.0 - Proyecto funcionando con el responsive movil y escritorio.
-- v1.0.1 - Proyecto corregido texto y versión para laptop.
-- v1.0.2 - Corregido tamaño de fuente para diversas pantallas, errores de texto.
-- v1.1.0 - Incluido botón blotante de whatsapp.
-- v1.2.0 - Nuevo sub bloque en el contenedor 2 - nuevo tamaño de fuentes para el contenedor 3.
-- v1.2.1 - Añadido logos en el bloque 7, arreglado dimensiones.
-- v1.2.2 - Cambio de videos por medio de Youtube.
+-   V1.0 - Proyecto funcionando con el responsive movil y escritorio.
+-   v1.0.1 - Proyecto corregido texto y versión para laptop.
+-   v1.0.2 - Corregido tamaño de fuente para diversas pantallas, errores de texto.
+-   v1.1.0 - Incluido botón blotante de whatsapp.
+-   v1.2.0 - Nuevo sub bloque en el contenedor 2 - nuevo tamaño de fuentes para el contenedor 3.
+-   v1.2.1 - Añadido logos en el bloque 7, arreglado dimensiones.
+-   v1.2.2 - Cambio de videos por medio de Youtube.
+-   v1.2.3 - Cambio de diseño, agregado nuevo bloque para iconos y organizan, cambio de tamaños.   

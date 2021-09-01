@@ -20,7 +20,7 @@ const Container_4 = () => {
                     </ul>
                 </div>
                 <div className = 'content__container_4--content--video'> 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fjxSFL2qSPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/fjxSFL2qSPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p className = 'text-bold'>Diana Rivera, docente de la UTPL</p>
                 </div>
             </div>

@@ -7,6 +7,7 @@ import Container4 from './Container_4';
 import Container5 from './Container_5';
 import Container6 from './Container_6';
 import Container7 from './Container_7';
+import Container8 from './Container_8';
 
 function Content() {
     return (
@@ -18,6 +19,7 @@ function Content() {
           <Container5/>
           <Container6/>
           <Container7/>
+          <Container8/>
       </div>
     );
   }
