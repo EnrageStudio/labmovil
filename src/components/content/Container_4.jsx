@@ -1,5 +1,3 @@
-import video from '../../assets/videos/1626713162084-00885.mp4'
-
 const Container_4 = () => {
     return(
         <div className = 'content__container_4'>
@@ -22,9 +20,7 @@ const Container_4 = () => {
                     </ul>
                 </div>
                 <div className = 'content__container_4--content--video'> 
-                    <video controls>
-                        <source src = {video} type = 'video/mp4'/>
-                    </video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fjxSFL2qSPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p className = 'text-bold'>Diana Rivera, docente de la UTPL</p>
                 </div>
             </div>
