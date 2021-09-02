@@ -21,7 +21,6 @@
         padding-bottom: 1em;
         p{
             text-align: center;
-            font-size: 10pt;
         }
         .header__title--cont{
             margin-bottom: 1em;
@@ -40,6 +39,32 @@
             .header__title--cont{
                 p{
                     font-size: 25px;
+                }
+            }
+        }
+    }
+}
+@include respond (laptopLow){
+    .header{
+        .header__video{           
+            video{
+                width: 100%;
+            }
+            .header__logo{
+                width: 20%;
+                margin-top: -5%;
+            }
+        }
+        .header__title{
+            max-width: 80%;
+            margin: auto;
+            padding-bottom: 2em;
+            p{
+                font-size: 25px;
+            }
+            .header__title--cont{
+                p{
+                    font-size: 32pt;
                 }
             }
         }

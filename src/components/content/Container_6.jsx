@@ -3,7 +3,7 @@ const Container_6 = () => {
         <div className = 'content__container_6'>
             <div className = 'content__container_6--content'>
                 <div className = 'content__container_6--content--video'>
-                <iframe src="https://www.youtube.com/embed/kskKg19ooFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    <p><strong>HUGO PARDO KUKLINSKI, director de Outliers School</strong></p>
+                    <iframe src="https://www.youtube.com/embed/kskKg19ooFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    <p><strong>HUGO PARDO KUKLINSKI, director de Outliers School</strong></p>
                 </div>
                 <div className = 'content__container_6--content--text'>
                     <h2>Una ruta de autoaprendizaje diseñada por un gran equipo internacional</h2>
