@@ -8,9 +8,10 @@ import {Welcome} from './animation/Animations';
 
 function App() {
   const [num] = useState("593939298410");
+  const [mensaje] = useState("¡Hola! 👋🏻 Necesito información sobre LabMovil2222"); 
   return (
     <div>
-      <Whatsapp num = {num}/>
+      <Whatsapp num = {num} mensaje = {mensaje}/>
       <Welcome component= {
         <div>
           <Header/>

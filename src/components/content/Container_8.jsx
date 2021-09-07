@@ -7,13 +7,13 @@ const Container_8 = () => {
         <div className = 'content__container_8'>
             <div className = 'content__container_8--organizan'>
                 <h2>Organizan:</h2>
-                    <a>
+                    <a href = 'https://labmovil2222.utpl.edu.ec/'>
                         <img src = {logo_utpl} alt = 'logo_utpl'/>
                     </a>
-                    <a>
+                    <a href = 'https://labmovil2222.utpl.edu.ec/'>
                         <img src = {logo_outliers} alt = 'logo_outliers'/>
                     </a>
-                    <a>
+                    <a href = 'https://labmovil2222.utpl.edu.ec/'>
                         <img src = {logo_catedra} alt = 'logo_catedra'/>
                     </a>
                 </div>

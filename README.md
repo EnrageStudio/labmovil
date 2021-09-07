@@ -21,3 +21,4 @@ Instala los modulos necesarios para el proyecto.
 -   v1.2.2  -   Cambio de videos por medio de Youtube.
 -   v1.2.3  -   Cambio de diseño, agregado nuevo bloque para iconos y organizan, cambio de tamaños.   
 -   v1.2.4  -   Añadido el pixel de facebook y responsive en tabletas, computadoras  
+-   v1.3.0  -   Agregado el formulario para Hubstop, arreglos al responisve y links de los botones.

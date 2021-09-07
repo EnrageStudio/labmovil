@@ -40,7 +40,7 @@ const Container_3 = () => {
                                 <p>Pagas por un viaje de 35 días, pero -si eres uno de los mejores 200 viajeros- puedes recibir un bonus por varias semanas más para mejorar y recibir mentorización sobre tu proyecto personal de innovación docente. </p>
                             </div>
                             <div className = 'content__container_3__content__join--btn'>
-                                <a href = 'https://forms.office.com/r/HtS9GhfQ22'>EMBÁRCATE EN ESTA AVENTURA</a>
+                                <a href = 'https://bit.ly/3mEVFV5'>EMBÁRCATE EN ESTA AVENTURA</a>
                             </div>                       
                         </div>                    
                     </div>

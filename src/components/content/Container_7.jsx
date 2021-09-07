@@ -11,7 +11,7 @@ const Container_7 = () => {
                     <p>El LabMóvil 2222 de la UTPL se traduce en repensar las dinámicas tradicionales de la escuela y abrir espacios para reconfigurar y reconectar los diferentes ingredientes de la educación. Y, a partir de este momento, ya no podremos dejar de ser parte de la comunidad 2222. ¡Este viaje nunca finalizará!</p>
                 </div>    
                 <div className = 'content__container_7--btn'>
-                    <a href = 'https://forms.office.com/r/HtS9GhfQ22'>Aprende a desaprender</a>
+                    <a href = 'https://bit.ly/3mEVFV5'>Aprende a desaprender</a>
                 </div>       
             </div>  
         </div>

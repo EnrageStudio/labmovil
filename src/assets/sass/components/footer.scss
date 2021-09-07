@@ -9,6 +9,14 @@
             font-size: 20pt;
         }
         .footer__content--form{
+            .footer__content--form--hubstop{
+                width: 100%;
+                #reactHubspotForm1{
+                    label{
+                        color: white !important;
+                    }
+                }
+            }
             input{
                 width: 100%;
                 margin: 0.25em 0 0.25em 0;
@@ -59,6 +67,8 @@
 }
 @include respond(desktop){
     .footer{
+        display: flex;
+        flex-wrap: wrap;
         .footer__content{
             max-width: 80%;
             display: flex;
@@ -80,6 +90,7 @@
                 }
                 .footer__content--form--btn{
                     font-size: 20px;
+                    margin-left: 0.45em;
                 }
             }
             .footer__content--social{
