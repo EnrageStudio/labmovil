@@ -5,7 +5,7 @@ import moment_3 from '../../assets/images/2222_icono_numero3.png';
 import moment_4 from '../../assets/images/2222_icono_numero4.png';
 import reward from '../../assets/images/2222_icono_premio.png';
 
-const Container_3 = () => {
+const Container_3 = (props) => {
     return(
         <div className = 'content__container_3'>
             <div className = 'content__container_3--moment'>
@@ -40,7 +40,7 @@ const Container_3 = () => {
                                 <p>Pagas por un viaje de 35 días, pero -si eres uno de los mejores 200 viajeros- puedes recibir un bonus por varias semanas más para mejorar y recibir mentorización sobre tu proyecto personal de innovación docente. </p>
                             </div>
                             <div className = 'content__container_3__content__join--btn'>
-                                <a href = 'https://bit.ly/3mEVFV5'>EMBÁRCATE EN ESTA AVENTURA</a>
+                                <a href = {props.url}>EMBÁRCATE EN ESTA AVENTURA</a>
                             </div>                       
                         </div>                    
                     </div>

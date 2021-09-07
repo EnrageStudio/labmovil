@@ -1,6 +1,6 @@
 import img from '../../assets/images/2222_ilustracion.png'; 
 
-const Container_5 = () => {
+const Container_5 = (props) => {
     return(
         <div className = 'content__container_5'>
             <div className = 'content__container_5--content'>
@@ -18,7 +18,7 @@ const Container_5 = () => {
                     <p><strong>Tiempo total del viaje 2222: </strong>120 hrs más las semanas extras para los 200 docentes más proactivos.</p>
                 </div>
                 <div className = 'content__container_5--content--btn'>
-                    <a href = 'https://bit.ly/3mEVFV5'>Aprende a desaprender</a>
+                    <a href = {props.url}>Aprende a desaprender</a>
                 </div>  
             </div>           
         </div>
