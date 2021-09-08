@@ -306,19 +306,24 @@
     .content__container_8{
         margin: 1em 0;
         .content__container_8--organizan{
-            max-width: 90%;
+            width: 90%;
             display: flex;
             flex-wrap: wrap;
             margin: auto;
             h2{
                 width: 100%;
                 margin: auto;
+                font-weight: bold;
+                margin-bottom: 1em;
             }
-            a{
-                max-width: 30%;
-                margin: auto;
+            .organizan--icon{
+                width: 40%;
+                display: block;
+                margin: 5%;
                 img{
                     max-height: 45px;
+                    display: block;
+                    margin: auto;
                 }
             }
         }
@@ -616,9 +621,14 @@
                 display: flex;
                 flex-wrap: wrap;
                 margin: auto;
-                a{
+                .organizan--icon{
+                    width: 23%;
+                    display: block;
+                    margin: 1%;
                     img{
-                        max-height: 150px;
+                        max-height: 75px;
+                        display: block;
+                        margin: auto;
                     }
                 }
             }
@@ -771,7 +781,7 @@
             .content__container_7--content{
                 .content__container_7--content--logo{
                     img{
-                        width: 50%;
+                        width: 30%;
                         margin: auto;
                     }
                 }
@@ -794,11 +804,14 @@
                     margin: auto;
                     font-weight: bold;
                 }
-                a{
-                    max-width: 30%;
-                    margin: auto;
+                .organizan--icon{
+                    width: 23%;
+                    display: block;
+                    margin: 1%;
                     img{
-                        max-height: 100px;
+                        max-height: 50px;
+                        display: block;
+                        margin: auto;
                     }
                 }
             }
@@ -951,7 +964,7 @@
             .content__container_7--content{
                 .content__container_7--content--logo{
                     img{
-                        width: 40%;
+                        width: 30%;
                         margin: auto;
                     }
                 }
@@ -974,11 +987,14 @@
                     margin: auto;
                     font-weight: bold;
                 }
-                a{
-                    max-width: 30%;
-                    margin: auto;
+                .organizan--icon{
+                    width: 23%;
+                    display: block;
+                    margin: 1%;
                     img{
-                        max-height: 125px;
+                        max-height: 65px;
+                        display: block;
+                        margin: auto;
                     }
                 }
             }

@@ -9,7 +9,7 @@ const Container_6 = () => {
                     <h2>Una ruta de autoaprendizaje diseñada por un gran equipo internacional</h2>
                     <p>Este gran ejercicio de diseño móvil ha sido liderado desde Barcelona y Ciudad de México por Hugo Pardo Kuklinski, Fernando Valenzuela, Luciano Cukar, las viñetas de Marta García Marín y el equipo de Outliers School.</p>
                     <p>Desde Loja hemos tenido el aporte experto de las profesoras María Isabel Loaiza, Diana Rivera, Paola Andrade, Paola Villarroel y María Cristina Espinosa, junto al equipo de Educación Continua UTPL.</p>
-                    <p>El desarrollo de la app también ha sido un esfuerzo del equipo UTPL liderado por Bruno Esparza Carchi. </p>
+                    <p>El desarrollo de la app también ha sido un esfuerzo del equipo Binnarium UTPL.</p>
                     <p><strong>Hemos creado un gran equipo para poder crear la mejor comunidad docente móvil de Ecuador.</strong></p>
                 </div>
             </div>

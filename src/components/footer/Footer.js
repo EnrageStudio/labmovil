@@ -42,6 +42,9 @@ function Footer() {
               } else if (xhr.readyState === 4 && xhr.status === 404) {
                   alert(xhr.responseText); //Returns a 404 error if the formGuid isn't found    
               }
+              else if (xhr.readyState === 4 && xhr.status === 400) {
+                alert("Ingresa un correo electrónico válido.");     
+            }
           }
           xhr.send(final_data)
   }
@@ -52,11 +55,14 @@ function Footer() {
           <form className = 'footer__content--form' onSubmit = {handleSubmit}>
           <h2>Suscríbete a nuestra <strong>Newsletter</strong></h2>
             <input type = 'text' placeholder = 'Nombre' value={name}
-                    onChange={e => setName(e.target.value)}/>
+                    onChange={e => setName(e.target.value)}
+                    required/>
             <input type = 'text' placeholder = 'Apellido' value={lastname}
-                    onChange={e => setLastName(e.target.value)}/>
-            <input type = 'text' placeholder = 'Email' value={email}
-                    onChange={e => setEmail(e.target.value)}/> 
+                    onChange={e => setLastName(e.target.value)}
+                    required/>
+            <input type = 'email' placeholder = 'Email' value={email}
+                    onChange={e => setEmail(e.target.value)}
+                    required/> 
             
             <input type = 'submit' className = 'footer__content--form--btn' value = 'Enviar'/>
           </form>
