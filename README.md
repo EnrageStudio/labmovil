@@ -23,3 +23,4 @@ Instala los modulos necesarios para el proyecto.
 -   v1.2.4  -   Añadido el pixel de facebook y responsive en tabletas, computadoras  
 -   v1.3.0  -   Agregado el formulario para Hubstop, arreglos al responisve y links de los botones.
 -   v1.3.1  -   Editado botones.
+-   v1.3.2  -   Agregado nuevo contenido, editado estilos.
