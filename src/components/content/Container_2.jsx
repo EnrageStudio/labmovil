@@ -64,7 +64,7 @@ const Container_2 = () => {
                         <img src = {certificado} alt = 'icon-certificacion'/>
                     </center>
                     <p className = 'content__container_2--title'>Certificación</p>
-                    <p>Diplomado avalado por la UTPL con una duración de 120 horas académicas</p>
+                    <p>Certificado avalado por la UTPL con una duración de 120 horas académicas</p>
                 </div>
             </div>
         </div>

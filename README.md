@@ -24,3 +24,4 @@ Instala los modulos necesarios para el proyecto.
 -   v1.3.0  -   Agregado el formulario para Hubstop, arreglos al responisve y links de los botones.
 -   v1.3.1  -   Editado botones.
 -   v1.3.2  -   Agregado nuevo contenido, editado estilos.
+-   v1.3.3  -   Editado contenido y estilos.
