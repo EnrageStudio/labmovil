@@ -73,11 +73,12 @@
             max-width: 80%;
             display: flex;
             h2{
-                font-size: 30px;
+                font-size: 28px;
             }
             .footer__content--form{
                 order: 2;
                 width: 50%;
+                height: 40px;
                 display: flex;
                 flex-wrap: wrap;
                 input{
@@ -90,6 +91,70 @@
                 }
                 .footer__content--form--btn{
                     font-size: 20px;
+                    margin-left: 0.45em;
+                }
+            }
+            .footer__content--social{
+                width: 50%;
+                margin-top: 0;
+                .footer__content--social-network--fb{
+                    width: 10%;
+                    text-align: left;
+                    cursor: pointer;
+                    margin: 0 10px;
+                    img{
+                        max-width: 100%;
+                    }
+                }
+                .footer__content--social-network--insta{
+                    width: 10%;
+                    text-align: left;
+                    cursor: pointer;
+                    margin: 0 10px;
+                    img{
+                        max-width: 100%;
+                    }
+                }
+                .footer__content--social-network--twitter{
+                    width: 10%;
+                    text-align: left;
+                    cursor: pointer;
+                    margin: 0 10px;
+                    img{
+                        max-width: 100%;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+@include respond(laptop){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        .footer__content{
+            max-width: 80%;
+            display: flex;
+            h2{
+                font-size: 30px;
+            }
+            .footer__content--form{
+                order: 2;
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                input{
+                    width: 48%;
+                    font-size: 15px;
+                    padding: 1%;
+                    height: 40px;
+                    &:first-of-type{
+                        margin-right: 2%;
+                    }
+                }
+                .footer__content--form--btn{
+                    font-size: 15px;
                     margin-left: 0.45em;
                 }
             }

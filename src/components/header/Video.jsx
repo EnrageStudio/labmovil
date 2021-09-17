@@ -4,7 +4,7 @@ import logo from '../../assets/images/2222_logo_rojo.png';
 const Video = () => {
     return(
         <div className = 'header__video'>
-            <video controls autoPlay loop>
+            <video controls autoPlay>
                 <source src = {videoHeader} type="video/mp4"/>
             </video>
             <div className = 'header__logo'>

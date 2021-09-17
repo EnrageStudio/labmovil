@@ -35,6 +35,11 @@
 }
 @include respond (laptop){
     .header{
+        .header__video{
+            .header__logo{
+                max-width: 20%;
+            }
+        }
         .header__title{
             .header__title--cont{
                 p{
@@ -72,6 +77,15 @@
 }
 @include respond(desktop){
     .header{
+        h3{
+            font-size: 27px;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+            margin: 0 25%;
+        }
         .header__video{           
             video{
                 width: 100%;
@@ -85,12 +99,10 @@
             max-width: 80%;
             margin: auto;
             padding-bottom: 2em;
-            p{
-                font-size: 20px;
-            }
             .header__title--cont{
-                p{
-                    font-size: 32pt;
+                margin-bottom: 1em;
+                .header__title--cont--second{
+                    margin: 0 25%;
                 }
             }
         }
