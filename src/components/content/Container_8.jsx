@@ -1,7 +1,7 @@
 import logo_utpl from '../../assets/images/UTPL-INSTITUCIONAL-color.jpg';
 import logo_outliers from '../../assets/images/logo_outliers_multi_transp.png';
 import logo_catedra from '../../assets/images/thumbnail_logop catedra de innovacion copy.png';
-import logo_binnarium from '../../assets/images/binnarium-logo-white.svg'
+import logo_binnarium from '../../assets/images/logo Binna.png'
 
 const Container_8 = () => {
     return(
