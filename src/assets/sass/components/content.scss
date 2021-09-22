@@ -76,6 +76,19 @@
             }
         }
     }
+    .content__container_2_1{
+        background-color: $yellow;
+        margin: 0;
+        padding: 15px 0 5px 0;
+        h2{
+            text-align: center;
+            font-weight: bold;
+            span{
+                color: $red;
+                display: block;
+            }
+        }
+    }
     .content__container_3{
         background: $black;
         padding: 2em 0 2em 0;
@@ -401,6 +414,15 @@
                 }
             }
         }
+        .content__container_2_1{
+            padding: 25px 0 15px 0;
+            h2{
+                font-size: 28px;
+                span{
+                    display: contents;
+                }
+            }
+        }
         .content__container_3{
             padding: 2em 0 0 0;
             .content__container_3--moment{
@@ -704,6 +726,15 @@
                 }
             }
         }
+        .content__container_2_1{
+            padding: 25px 0 15px 0;
+            h2{
+                font-size: 40px;
+                span{
+                    display: contents;
+                }
+            }
+        }
         .content__container_3{
             padding: 2em 0 0 0;
             h2{
@@ -960,7 +991,7 @@
                     }
                 }
                 p{
-                    font-size: 22px;
+                    font-size: 18px;
                     padding: 1em 1em 0 0;
                 }
             }
@@ -983,13 +1014,23 @@
                 } 
             }
             .content__container_2--box{
+                flex-wrap: wrap;
                 .content__container_2--about{
+                    width: 50%;
                     .content__container_2--title{
                         font-size: 25px;
                     }
                     p{
-                        font-size: 15px;
+                        font-size: 18px;
                     }
+                }
+            }
+        }
+        .content__container_2_1{
+            h2{
+                font-size: 25px;
+                span{
+                    display: block;
                 }
             }
         }
@@ -1170,13 +1211,23 @@
                 } 
             }
             .content__container_2--box{
+                flex-wrap: wrap;
                 .content__container_2--about{
+                    width: 50%;
                     .content__container_2--title{
                         font-size: 30px;
                     }
                     p{
                         font-size: 25px;
                     }
+                }
+            }
+        }
+        .content__container_2_1{
+            h2{
+                font-size: 30px;
+                span{
+                    display: block;
                 }
             }
         }

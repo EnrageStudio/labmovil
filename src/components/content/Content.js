@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 import Container1 from './Container_1';
 import Container2 from './Container_2';
+import Container2_1 from './Container_2_1';
 import Container3 from './Container_3';
 import Container4 from './Container_4';
 import Container5 from './Container_5';
@@ -15,6 +16,7 @@ function Content() {
       <div className = 'content'>
           <Container1/>
           <Container2/>
+          <Container2_1/>
           <Container3 url = {_url}/>
           <Container4/>
           <Container5 url = {_url}/>
