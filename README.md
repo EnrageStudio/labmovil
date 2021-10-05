@@ -28,3 +28,4 @@ Instala los modulos necesarios para el proyecto.
 -   v1.3.4  -   Editado tamaños y correcciones de diseño.
 -   v1.3.5  -   Cambio de contenido y responsive.
 -   v1.4.0  -   Agregado un nuevo bloque de contenido.
+-   v1.4.1  -   Editado el contenido del bloque 2.1.
